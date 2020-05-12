@@ -62,7 +62,7 @@ class WAPV_Products_Visibility {
 				'msg'  => esc_html__( 'Cheating!', 'wapv' )
 			) );
 		}
-		if ( ! current_user_can( 'manage_options' ) ) {
+		if ( ! current_user_can( 'edit_others_posts' ) ) {
 			wp_send_json_error( array(
 				'code' => 2,
 				'msg'  => esc_html__( 'You don\'t have sufficient permissions to do this action', 'wapv' )
@@ -71,7 +71,7 @@ class WAPV_Products_Visibility {
 		if ( ! isset( $_POST['product_id'] ) ) {
 			wp_send_json_error( array(
 				'code' => 3,
-				'msg'  => esc_html__( 'You must provide shipment ID', 'wapv' )
+				'msg'  => esc_html__( 'You must provide product ID', 'wapv' )
 			) );
 		}
 
@@ -95,7 +95,7 @@ class WAPV_Products_Visibility {
 		$product->save();
 		wp_send_json_success( array(
 			'code' => 1,
-			'msg'  => esc_html__( $new_status . ' Saved!!', 'wapv' )
+			'msg'  => esc_html__( 'Saved!', 'wapv' )
 		) );
 
 	}

@@ -1,0 +1,61 @@
+msgid ""
+msgstr ""
+"Language: ar\n"
+"POT-Creation-Date: 2020-05-12 14:29+0000\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100 >= 3 "
+"&& n%100<=10 ? 3 : n%100 >= 11 && n%100<=99 ? 4 : 5;\n"
+"PO-Revision-Date: 2020-05-12 14:30+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Project-Id-Version: WC Ajax Product Visibility\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: العربية\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Loco-Version: 2.3.2; wp-5.4"
+
+#: includes/WAPV_Products_Visibility.php:40
+msgid "Visibility"
+msgstr "معروض"
+
+#: includes/WAPV_Products_Visibility.php:62
+msgid "Cheating!"
+msgstr "غش"
+
+#: includes/WAPV_Products_Visibility.php:68
+msgid "You don't have sufficient permissions to do this action"
+msgstr "عذرا.. لا تمتلك الصلاحيات الكافية للقيام بهذا"
+
+#: includes/WAPV_Products_Visibility.php:74
+msgid "You must provide product ID"
+msgstr "يجب عليك تزويد رقم معرف المنتج"
+
+#: includes/WAPV_Products_Visibility.php:81
+msgid "You must install woocommerce"
+msgstr "يجب عليك تنصيب اضافة ووكومرس"
+
+#: includes/WAPV_Products_Visibility.php:98
+msgid "Saved!"
+msgstr "تم الحفظ"
+
+#. Name of the plugin
+msgid "WC Ajax Product Visibility"
+msgstr "التحكم فى ظهور المنتجات للوكومرس"
+
+#. Description of the plugin
+msgid ""
+"Control showing or hiding woocommerce product without editing it with ajax."
+msgstr "التحكم فى إظهار او إخفاء المنتجات للوكومرس بتقنية الأجاكس"
+
+#. URI of the plugin
+msgid "https://github.com/DevWael/wc-ajax-product-visibility"
+msgstr "https://github.com/DevWael/wc-ajax-product-visibility"
+
+#. Author of the plugin
+msgid "AHMAD WAEL"
+msgstr "أحمد وائل"
+
+#. Author URI of the plugin
+msgid "https://github.com/DevWael"
+msgstr "https://github.com/DevWael"

@@ -15,7 +15,7 @@
  * @wordpress-plugin
  * Plugin Name:       WC Ajax Product Visibility
  * Plugin URI:        https://github.com/DevWael/wc-ajax-product-visibility
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description:       Control showing or hiding woocommerce product without editing it with ajax.
  * Version:           1.0.0
  * Author:            AHMAD WAEL
  * Author URI:        https://github.com/DevWael

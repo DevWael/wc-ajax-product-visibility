@@ -1,0 +1,53 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Language: \n"
+"POT-Creation-Date: 2020-05-12 14:29+0000\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: includes/WAPV_Products_Visibility.php:40
+msgid "Visibility"
+msgstr ""
+
+#: includes/WAPV_Products_Visibility.php:62
+msgid "Cheating!"
+msgstr ""
+
+#: includes/WAPV_Products_Visibility.php:68
+msgid "You don't have sufficient permissions to do this action"
+msgstr ""
+
+#: includes/WAPV_Products_Visibility.php:74
+msgid "You must provide product ID"
+msgstr ""
+
+#: includes/WAPV_Products_Visibility.php:81
+msgid "You must install woocommerce"
+msgstr ""
+
+#: includes/WAPV_Products_Visibility.php:98
+msgid "Saved!"
+msgstr ""
+
+#. Name of the plugin
+msgid "WC Ajax Product Visibility"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Control showing or hiding woocommerce product without editing it with ajax."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://github.com/DevWael/wc-ajax-product-visibility"
+msgstr ""
+
+#. Author of the plugin
+msgid "AHMAD WAEL"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://github.com/DevWael"
+msgstr ""
