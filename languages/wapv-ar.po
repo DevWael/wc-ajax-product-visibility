@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "Language: ar\n"
-"POT-Creation-Date: 2020-05-12 14:29+0000\n"
+"POT-Creation-Date: 2020-05-12 14:33+0000\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100 >= 3 "
 "&& n%100<=10 ? 3 : n%100 >= 11 && n%100<=99 ? 4 : 5;\n"
-"PO-Revision-Date: 2020-05-12 14:30+0000\n"
+"PO-Revision-Date: 2020-05-12 14:33+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "Project-Id-Version: WC Ajax Product Visibility\n"
 "Report-Msgid-Bugs-To: \n"
@@ -35,9 +35,13 @@ msgstr "يجب عليك تزويد رقم معرف المنتج"
 msgid "You must install woocommerce"
 msgstr "يجب عليك تنصيب اضافة ووكومرس"
 
-#: includes/WAPV_Products_Visibility.php:98
+#: includes/WAPV_Products_Visibility.php:99
 msgid "Saved!"
 msgstr "تم الحفظ"
+
+#: includes/WAPV_Products_Visibility.php:104
+msgid "Cannot find this product!"
+msgstr "غير قادر على إيجاد هذا المنتج!"
 
 #. Name of the plugin
 msgid "WC Ajax Product Visibility"
