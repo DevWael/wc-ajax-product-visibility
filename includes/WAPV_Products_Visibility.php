@@ -81,24 +81,28 @@ class WAPV_Products_Visibility {
 				'msg'  => esc_html__( 'You must install woocommerce', 'wapv' )
 			) );
 		}
-		$product_id     = sanitize_text_field( $_POST['product_id'] );
-		$product        = new WC_Product( $product_id );
-		$product_status = $product->get_status();
+		$product_id = sanitize_text_field( $_POST['product_id'] );
+		$product    = new WC_Product( $product_id );
+		if ( $product ) {
+			$product_status = $product->get_status();
 
-		if ( $product_status == 'publish' ) { //flipping product status between publish and draft
-			$new_status = 'draft';
+			if ( $product_status == 'publish' ) { //flipping product status between publish and draft
+				$new_status = 'draft';
+			} else {
+				$new_status = 'publish';
+			}
+
+			$product->set_status( $new_status );
+			$product->save();
+			wp_send_json_success( array(
+				'code' => 1,
+				'msg'  => esc_html__( 'Saved!', 'wapv' )
+			) );
 		} else {
-			$new_status = 'publish';
+			wp_send_json_error( array(
+				'code' => 5,
+				'msg'  => esc_html__( 'Cannot find this product!', 'wapv' )
+			) );
 		}
-
-		$product->set_status( $new_status );
-		$product->save();
-		wp_send_json_success( array(
-			'code' => 1,
-			'msg'  => esc_html__( 'Saved!', 'wapv' )
-		) );
-
 	}
-
-
 }
